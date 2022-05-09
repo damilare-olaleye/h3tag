@@ -74,10 +74,7 @@ jobs:
     - name: Autobuild
       uses: github/codeql-action/autobuild@v2
 
-
     - name: Setup Node.js environment
       uses: actions/setup-node@v3.1.1
       
-    - name: Packer GitHub Actions
-      uses: hashicorp/packer-github-actions@v0.2.0
       
