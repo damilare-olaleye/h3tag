@@ -1,1 +1,20 @@
-
+<div class="container">
+	<input id="switch" type="checkbox" checked>
+	<div class="box" id="box">
+		<div class="backside"></div>
+		<label for="switch">
+			<span class="on">ON</span>
+			<span class="off">OFF</span>
+			<span class="cube-switch">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</label>
+	</div>
+	<div class="turned-off"></div>
+	<input type="range" id="turn" min="0" max="360" value="30" oninput="spinSwitch()" onchange="spinSwitch()">
+</div>
