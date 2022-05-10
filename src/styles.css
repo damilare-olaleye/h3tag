@@ -651,17 +651,17 @@ body::before {
 	filter: blur(1px);
 	opacity: 0.5;
 	opacity: 0;
-	animation: footprint 10s linear 0s infinite;
+	animation: footprint 20s linear 0s infinite;
 }
 
 .footprints span + span {
-	animation-delay: 2.5s;
+	animation-delay: 5s;
 	left: 45.75%;
 	top: 3%;
 }
 
 .footprints span + span + span {
-	animation-delay: 5s;
+	animation-delay: 10s;
 	left: 14.05%;
 	top: 2%;
 }
@@ -684,6 +684,8 @@ body::before {
 	}
 }
 
+/** */
+/** */
 body {
 	margin: 0;
 	padding: 0;
@@ -704,11 +706,12 @@ body * {
 	width: 100vw;
 	height: 100vh;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	top: 0;
+	justify-content: right;
+	align-items: right;
+	margin-top: 2vh;
 	left: 0;
 	overflow: hidden;
+  z-index: 999;
 }
 
 .box {
