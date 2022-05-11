@@ -746,7 +746,7 @@ body * {
   margin: 100px auto;
   animation: float 20s;
   animation-fill-mode: forwards;
-  margin-left: 720px;
+  /* margin-left: 720px; */
   margin-bottom: 1700px;
 }
 
